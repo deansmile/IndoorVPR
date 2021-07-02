@@ -13,7 +13,7 @@ while True:
     if cv2.waitKey(1) & 0xFF == ord('q'):
         break
     
-    time.sleep(1.0 - time.time() + start_time) 
+    time.sleep(0.5 - time.time() + start_time) 
 
 cap.release()
 

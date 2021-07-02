@@ -414,7 +414,7 @@ if __name__ == '__main__':
             break
         if img_counter>=4:
             break
-        time.sleep(1.0 - time.time() + start_time) 
+        time.sleep(0.5 - time.time() + start_time) 
 
     cap.release()
 
